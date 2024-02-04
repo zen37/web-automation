@@ -1,0 +1,69 @@
+(venv)  python/web-automation % [main] > python amazon.py
+Initializing Firefox driver...
+Folder for screenshots: 2024.02.04_12.54.26
+Opening ... https://www.amazon.com/
+Searching for ... headphones
+First product in results list ...
+Description: Amazon Basics In Ear Wired Headphones, Earbuds with Microphone No Wireless Technology, Black, 0.96 x 0.56 x 0.64in
+Price: 8.99
+Error occurred: Message: 
+
+Shopping Cart Product ...
+Description: Amazon Basics In Ear Wired Headphones, Earbuds with Microphone No Wireless Technology, Black, 0.96 x 0.56 x 0.64in
+Price: 8.99
+quantity 2
+quantity 1
+Error: Timeout occurred while waiting for elements
+Quitting Firefox driver... called from main
+(venv)  python/web-automation % [main] > python amazon.py
+Initializing Firefox driver...
+Folder for screenshots: 2024.02.04_13.09.14
+Opening ... https://www.amazon.com/
+Searching for ... headphones
+First product in results list ...
+Description: Sony ZX Series Wired On-Ear Headphones, White MDR-ZX110
+Price: 278.00
+Error occurred: Message: 
+
+Shopping Cart Product ...
+Description: Sony ZX Series Wired On-Ear Headphones, White MDR-ZX110
+Price: 9.99
+Assert error: product price is not the same
+Quitting Firefox driver... called from main
+(venv)  python/web-automation % [main] > python amazon.py
+Initializing Firefox driver...
+Folder for screenshots: 2024.02.04_13.10.27
+Opening ... https://www.amazon.com/
+Searching for ... headphones
+First product in results list ...
+Description: HT2 Hybrid Active Noise Cancelling Headphones, Wireless Over Ear Bluetooth Headphones, 60H Playtime, Hi-Res Audio Custom EQ via App Deep Bass Comfort Fit Ear Cups, for Home Office Travel
+Price: 278.00
+Error occurred: Message: 
+
+Error: Message: Element <div id="nav-cart-count-container"> is not clickable at point (1212,24) because another element <h3 class="a-spacing-base"> obscures it
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:191:5
+ElementClickInterceptedError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:335:5
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:176:11
+interaction.clickElement@chrome://remote/content/marionette/interaction.sys.mjs:135:11
+clickElement@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:204:29
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:84:31
+
+Quitting Firefox driver... called from main
+(venv)  python/web-automation % [main] > python amazon.py
+Initializing Firefox driver...
+Folder for screenshots: 2024.02.04_13.11.09
+Opening ... https://www.amazon.com/
+Searching for ... headphones
+First product in results list ...
+Description: HT2 Hybrid Active Noise Cancelling Headphones, Wireless Over Ear Bluetooth Headphones, 60H Playtime, Hi-Res Audio Custom EQ via App Deep Bass Comfort Fit Ear Cups, for Home Office Travel
+Price: 278.00
+Error occurred: Message: 
+
+Shopping Cart Product ...
+Description: TOZO HT2 Hybrid Active Noise Cancelling Headphones, Wireless Over Ear Bluetooth Headphones, 60H Playtime, Hi-R
+Price: 49.99
+Assert error: product description is not the same
+Quitting Firefox driver... called from main
+(venv)  python/web-automation % [main] > 
